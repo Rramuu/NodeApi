@@ -9,3 +9,11 @@ docker build -t nodeapi .
 
 ## For run a conteneur :
 docker run -p 8080:8080 nodeapi
+
+## For body request :
+{
+  "item-ids": [123, 124, 125, 126, 127, 128, 129, 130]
+}
+
+## For route :
+POST : localhost:8080/items-stations
