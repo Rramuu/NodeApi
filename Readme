@@ -1,0 +1,11 @@
+## For install :
+npm install
+
+## For run application :
+npm start
+
+## For build a conteneur :
+docker build -t nodeapi . 
+
+## For run a conteneur :
+docker run -p 8080:8080 nodeapi
